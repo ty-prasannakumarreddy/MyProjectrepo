@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean  class ="com.tyss.beansclass.Address" id ="addressOne" autowire-candidate="false">
+<property name="pinNum" value="518543"/>
+<property name="hno" value="1/11A"/>
+<property name="state" value="andhra predash"/>
+
+
+</bean>
+<bean  class ="com.tyss.beansclass.Address" id ="addressTwo" primary="true">
+<property name="pinNum" value="000654"/>
+<property name="hno" value="2/22/B"/>
+<property name="state" value="karnnataka"/>
+
+
+</bean>
+<bean  class ="com.tyss.beansclass.Address" id ="addressThree">
+<property name="pinNum" value="518543"/>
+<property name="hno" value="1/11A"/>
+<property name="state" value="andhra predash"/>
+
+
+</bean>
+ 
+</beans>
